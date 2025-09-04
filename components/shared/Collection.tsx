@@ -49,11 +49,7 @@ export const Collection = ({
   return (
     <>
       <div className="collection-heading">
-<<<<<<< HEAD
-        <h2 className="h2-bold text-dark-600">Recent Editss</h2>
-=======
         <h2 className="h2-bold text-dark-600">Recent Edits</h2>
->>>>>>> 0ca2f2cbc611a045bae3ac3cf9e29ad2af48cf3c
         {hasSearch && <Search />}
       </div>
 
@@ -117,18 +113,10 @@ const Card = ({ image }: { image: IImage }) => {
             {image.title}
           </p>
           <Image
-<<<<<<< HEAD
             src={`/assets/icons/${transformationTypes[
                 image.transformationType as TransformationTypeKey
               ].icon
               }`}
-=======
-            src={`/assets/icons/${
-              transformationTypes[
-                image.transformationType as TransformationTypeKey
-              ].icon
-            }`}
->>>>>>> 0ca2f2cbc611a045bae3ac3cf9e29ad2af48cf3c
             alt={image.title}
             width={24}
             height={24}
